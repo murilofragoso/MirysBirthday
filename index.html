@@ -10,15 +10,88 @@
     </head>
     <body>
 
-        <div class="container text-center title-container">
-            <div class="d-flex flex-column justify-content-center align-items-center" style="min-height: 100vh;">
-                <div class="row">
-                    <h1>Feliz aniversário Mi!</h1>
-                    <br>
-                    <p>Fiz esse site para comemorar seus 27 aninhos! espero que goste ❤</p>
+        <div class="container text-center">
+            <div class="d-flex flex-column justify-content-center" style="min-height: 100vh;">
+                <div id="page1">
+                    <div class="row">
+                        <h1>Feliz aniversário Mi!</h1>
+                        <br>
+                        <p>Fiz esse site para comemorar seus 27 aninhos! espero que goste ❤</p>
+                    </div>
+                    <div class="row btn-row">
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light btn-next" data-page="1">Continuar <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
-                    <button type="button" class="btn btn-outline-light">Continuar <i class="fa-solid fa-arrow-right"></i></button>
+                <div id="page2" style="display: none;">
+                    <div class="row justify-content-center">
+                        <div class="d-flex col-4 justify-content-center">
+                            <img class="main-img" src="https://media1.tenor.com/m/tG_wSPX_1AIAAAAC/hug.gif" alt="">
+                        </div>
+                        <h1>Parabéns pelo seu dia!</h1>
+                        <br>
+                        <p>Desejo a ti muita saúde, paz e felicidade, que seus sonhos se realizem e seu dia seja incrível! você merece tudo de bom ❤</p>
+                    </div>
+                    <div class="row btn-row">
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light btn-back" data-page="2"><i class="fa-solid fa-arrow-left"></i> Voltar</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light btn-next" data-page="2">Continuar <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div id="page3" style="display: none;">
+                    <div class="row justify-content-center">
+                        <div class="d-flex col-4 justify-content-center">
+                            <img class="main-img" src="https://media1.tenor.com/m/WKktFgwNn9gAAAAd/stan-twitter-kitty.gif" alt="">
+                        </div>
+                        <h1>Obrigado por ser tão incrível</h1>
+                        <br>
+                        <p>Você é maravilhosa, gentil, carinhosa, atenciosa, eu te admiro demais, sou seu maior fã!</p>
+                    </div>
+                    <div class="row btn-row">
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light btn-back" data-page="3"><i class="fa-solid fa-arrow-left"></i> Voltar</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light btn-next" data-page="3">Continuar <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div id="page4" style="display: none;">
+                    <div class="row justify-content-center">
+                        <div class="d-flex col-4 justify-content-center">
+                            <img class="main-img" src="https://media1.tenor.com/m/ns27oDL6PPIAAAAC/cats-cat-with-flower.gif" alt="">
+                        </div>
+                        <h1>Flores de presente pra ti, princesa! ❤</h1>
+                    </div>
+                    <div class="row btn-row">
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light btn-back" data-page="4"><i class="fa-solid fa-arrow-left"></i> Voltar</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light btn-next" data-page="4">Continuar <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div id="page5" style="display: none;">
+                    <div class="row justify-content-center">
+                        <div class="d-flex col-4 justify-content-center">
+                            <img class="main-img" src="https://media.tenor.com/DhqhjsSjIsEAAAAi/sanrio.gif" alt="">
+                        </div>
+                        <h1>PARABENS MI!!</h1>
+                        <br>
+                        <audio controls id="audio-parabens">
+                            <source src="audio/parabens-da-xuxa.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div class="row btn-row">
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light btn-back" data-page="5"><i class="fa-solid fa-arrow-left"></i> Voltar</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
