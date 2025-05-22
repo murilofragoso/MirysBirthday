@@ -35,3 +35,7 @@ body {
 .btn-row {
     margin-top: 15px;
 }
+
+#audio-parabens {
+    max-width: 100%;
+}
